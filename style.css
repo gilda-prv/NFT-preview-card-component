@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+}
+.container {
+  text-align: center;
+  /* padding: 20px 30px; */
+  min-width: 300px;
+  margin: 0 auto;
+}
+.card {
+  border-radius: 8px;
+  background-color: hsl(216, 50%, 16%);
+  overflow: hidden;
+  text-align: center;
+  margin: 0 1em;
+}
+.img img {
+  width: 50%;
+  border-radius: 12px;
+  padding: 20px 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  margin-left: 5px;
+}
